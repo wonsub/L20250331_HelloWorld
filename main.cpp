@@ -10,14 +10,21 @@ using namespace std;
 //산술연산자
 //변수선언
 
+
+
+enum EColor
+{
+	Red = 0,
+
+};
 int main()
 {
-	int Number1 = 5;
-	int Number2 = 4;
-	float number;
+	EColor Color = EColor::Red;
 
+
+	//형변환, casting
 	float A = (float)5.5f;
-	int B = A;
+	int B = static_cast<int>(A);
 
 	
 	return 0;
