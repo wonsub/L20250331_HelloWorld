@@ -3,28 +3,30 @@
 using namespace std;
 
 
-//int
-//char
-//float
-//대입연산자
-//산술연산자
-//변수선언
-
-
-
-enum EColor
-{
-	Red = 0,
-
-};
 int main()
 {
-	EColor Color = EColor::Red;
+	int num1, num2;
+	float num1f, num2f;
 
 
-	//형변환, casting
-	float A = (float)5.5f;
-	int B = static_cast<int>(A);
+	//num1 = 5, num2 = 4;
+	cout << "정수형 두 수를 입력해주세요" << endl;
+	cin >> num1 >> num2;
+
+	cout << "두 수의 + 결과:"<<num1 + num2 << endl;
+	cout << "두 수의 - 결과:" << num1 - num2 << endl;
+	cout << "두 수의 * 결과:" << num1 * num2 << endl;
+	cout << "두 수의 / 결과:" << num1 / num2 << endl;
+
+
+	cout << "실수형 두 수를 입력해주세요" << endl;
+	cin >> num1f >> num2f;
+
+	cout << "두 수의 + 결과:" << num1f + num2f << endl;
+	cout << "두 수의 - 결과:" << num1f - num2f << endl;
+	cout << "두 수의 * 결과:" << num1f * num2f << endl;
+	cout << "두 수의 / 결과:" << num1f / num2f << endl;
+
 
 	
 	return 0;
